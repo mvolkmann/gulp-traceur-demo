@@ -1,0 +1,16 @@
+{
+  "name": "gulpDemo",
+  "version": "1.0.0",
+  "description": "Demonstration of using gulp-traceur and sourcemaps",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "R. Mark Volkmann",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-sourcemaps": "^1.2.8",
+    "gulp-traceur": "^0.14.0"
+  }
+}
