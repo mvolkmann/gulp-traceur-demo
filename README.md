@@ -6,6 +6,6 @@ Currently sourcemap files are not being generated!
 
 To run this:
 
-1. npm install
-2. npm install gulp
-3. gulp
+1. npm install -g gulp (if not already done)
+2. npm install (to install dependencies in package.json)
+3. gulp (to attempt to generate sourcemap files)
