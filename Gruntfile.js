@@ -1,8 +1,6 @@
 // To use this, first run these commands:
 // npm install -g grunt-cli
-// npm install grunt --save-dev
-// npm install grunt-contrib-clean --save-dev
-// npm install grunt-traceur-simple --save-dev
+// npm install
 module.exports = function (grunt) {
   grunt.initConfig({
     clean: ['dist'],
