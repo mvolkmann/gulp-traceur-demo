@@ -8,6 +8,6 @@ gulp.task('default', function () {
     .pipe(sourcemaps.init())
     .pipe(traceur())
     //.pipe(concat('all.js'))
-    .pipe(sourcemaps.write())
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('dist'));
 });
