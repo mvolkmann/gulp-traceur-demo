@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.10",
+    "gulp-rimraf": "^0.1.1",
     "gulp-sourcemaps": "^1.2.8",
     "gulp-traceur": "^0.14.0"
   }
