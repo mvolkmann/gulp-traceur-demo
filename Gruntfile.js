@@ -1,6 +1,3 @@
-// To use this, first run these commands:
-// npm install -g grunt-cli
-// npm install
 module.exports = function (grunt) {
   grunt.initConfig({
     clean: ['dist'],
