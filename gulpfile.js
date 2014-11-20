@@ -1,12 +1,11 @@
 var gulp = require('gulp');
-var rimraf = require('gulp-rimraf');
+var del = require('del');
 var sourcemaps = require('gulp-sourcemaps');
 var traceur = require('gulp-traceur');
 //var concat = require('gulp-concat');
 
-gulp.task('clean', function () {
-  return gulp.src('dist', {read: false})
-    .pipe(rimraf());
+gulp.task('clean', function (done) {
+  del(['dist'], done);
 });
 
 gulp.task('default', function () {
